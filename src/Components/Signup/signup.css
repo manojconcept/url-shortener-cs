@@ -1,0 +1,43 @@
+.bg-s {
+  margin-top: 100px;
+  background-position: 0 0;
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab);
+  background-size: 400% 400%;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+@keyframes menugradientanimation {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  80% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.btn{
+  background-color:  #e73c7e;
+  border: 1px solid #0A0A0A;
+  
+}
+
+.btn:hover{
+  background-color:#0A0A0A;
+}
